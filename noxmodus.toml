@@ -1,0 +1,252 @@
+[information]
+name = "nox-modus"
+background = "dark"
+author = "Lano Puljic"
+
+
+[palette]
+bg                          = '#1d1f20'
+fg                          = '#999999'
+subtle_black                = '#303030'
+subtler_black               = '#222222' 
+black                       = '#282828'
+gray01                      = '#333333'
+gray04                      = '#666666'
+gray05                      = '#727272'
+gray06                      = '#7c8c95' # or #828282
+gray07                      = '#8c8c8c'
+gray08                      = '#969696' # or #778899
+gray09                      = '#a0a0a0'
+gray10                      = '#aaaaaa'
+gray11                      = '#b5b5b5'
+gray13                      = '#c9c9c9'
+gray15                      = '#efefef'
+sign_add                    = '#587c0c'
+sign_change                 = '#0c7d9d'
+sign_delete                 = '#94151b'
+cursor_fg                   = '#415062'
+cursor_bg                   = '#AbAbAf'
+blue                        = '#75BEFF'
+purple                      = '#B180D7'
+red                         = '#db4b4b'
+green                       = '#5FD7A7'
+orange                      = '#fe8019'
+yellow                      = '#F3E430'
+dark_yellow                 = '#f2ac46'
+sign_add_alt                = '#73C991'
+sign_change_alt             = '#CCA700'
+error                       = '#db4b4b'
+warn                        = '#eeaf58'
+info                        = '#719597'
+hint                        = '#4bc1fe'
+            
+#error_bg                    = '#31262d' # not using this colour
+#warn_bg                     = '#32302f' # not using this colour
+#info_bg                     = '#1e3135' # not using this colour
+#cyan                        = '#46a6b2' # not using this colour
+#gray02                      = '#515151' # not using this colour
+#gray03                      = '#5b5b5b' # not using this colour
+#gray12                      = '#bfbfbf' # not using this colour
+#gray14                      = '#d3d3d3' # not using this colour
+
+[editor]
+Normal                      = 'gray13 bg'
+Insert                      = 'red orange'
+SignColumn                  = '- bg'
+MsgArea                     = 'fg bg'
+ModeMsg                     = 'fg bg'
+SpellBad                    = '- - c red'
+SpellCap                    = '- - c yellow'
+SpellLocal                  = '- - u green'
+SpellRare                   = '- - u purple'
+NormalNC                    = 'fg bg'
+Pmenu                       = 'fg subtle_black'
+PmenuSel                    = 'black gray13'
+PmenuSbar                   = 'fg subtle_black'
+PmenuThumb                  = 'fg gray05'  # Changes colour of scroll bar in floating window.
+WildMenu                    = 'fg black'
+LineNr                      = 'gray09 -'
+CursorLineNr                = 'gray15 - b'
+CursorLine                  = '- subtle_black'
+Folded                      = 'gray04 -'
+FoldColumn                  = 'gray09 -'
+Whitespace                  = 'bg'
+CursorColumn                = '- subtle_black'
+ColorColumn                 = '- gray09'
+NormalFloat                 = '- -' # Changes background on floating windows 
+FloatBoder                  = 'gray13 bg'
+Visual                      = '- gray01'
+VisualNOS                   = '- red'
+WarningMsg                  = 'error bg'
+DiffText                    = 'bg sign_delete'
+DiffAdd                     = 'bg sign_add'
+DiffChange                  = 'bg sign_change u'
+DiffDelete                  = 'bg sign_delete'
+QuickFixLine                = '- dark_yellow'
+MatchWord                   = '- - u'
+MatchParen                  = 'orange'
+MatchWordCur                = '- - u'
+MatchParenCur               = '- - u'
+Cursor                      = 'cursor_fg cursor_bg'
+lCursor                     = 'cursor_fg cursor_bg'
+CursorIM                    = 'cursor_fg cursor_bg'
+TermCursor                  = 'cursor_fg cursor_bg'
+TermCursorNC                = 'cursor_fg cursor_bg'
+Conceal                     = 'fg'
+Directory                   = 'gray09'
+SpecialKey                  = 'fg - b'
+ErrorMsg                    = 'error bg b'
+Search                      = 'gray01 gray11 '
+IncSearch                   = 'black gray07 b'
+Substitute                  = 'black gray13'
+MoreMsg                     = 'dark_yellow'
+Question                    = 'dark_yellow'
+EndOfBuffer                 = 'bg'
+NonText                     = 'gray04'
+TabLine                     = 'gray09 bg'
+TabLineSel                  = 'fg bg'
+TabLineFill                 = 'bg bg'
+
+[code]
+Comment                     = 'gray10 - i'
+Title                       = 'gray07 - b'
+String                      = 'gray10'
+Character                   = 'gray05'
+Number                      = 'gray06'
+Float                       = 'gray06'
+Boolean                     = 'gray06'
+Constant                    = 'gray05'
+Type                        = 'gray13'          # int, long, char, etc.  
+StorageClass                = 'gray13'          # static, register, volatile
+Structure                   = 'gray13'          # struct, union, enum
+Typedef                     = 'gray13'          # A typedef
+PreProc                     = 'gray07'
+Include                     = 'gray07'
+Define                      = 'gray07'
+Macro                       = 'gray07'
+PreCondit                   = 'gray07'
+Statement                   = 'gray05'
+Conditional                 = 'gray05'          # if, then, else, endif
+Repeat                      = 'gray05'          # for, do, while
+Label                       = 'gray05'          # case, default,
+Operator                    = 'gray13'          # " =, >=, :="
+Keyword                     = 'gray13'
+Exception                   = 'gray05'          # try, catch, throw
+Identifier                  = 'gray08'
+Function                    = 'gray08'
+Special                     = 'gray05'          # ${, [], ?
+SpecialChar                 = 'gray05'
+Tag                         = 'gray05'
+Delimiter                   = 'gray05'
+Debug                       = 'gray05'
+Bold                        = '- - b'
+Italic                      = '- - i'
+Underlined                  = '- - u'
+Ignore                      = 'red - b'
+Todo                        = 'red - b'
+Error                       = 'error - b'
+Variable                    = 'red'
+
+[StatusLine]    
+StatusLine                  = 'gray11 gray01'
+StatusLineNC                = 'gray04 subtler_black'
+StatusLineSeparator         = 'gray13'
+StatusLineTerm              = 'gray13'
+StatusLineTermNC            = 'gray13'
+
+[git]
+SignAdd                     = 'sign_add'
+SignChange                  = 'sign_change'
+SignDelete                  = 'sign_delete'
+GitSignsAdd                 = 'sign_add'
+GitSignsChange              = 'sign_change'
+GitSignsDelete              = 'sign_delete'
+
+[IndentBlankline]
+IndentBlanklineContextChar  = 'gray08'
+IndentBlanklineContextStart = '- - u'
+IndentBlanklineChar         = '- - - -'
+
+[packer]
+packerString                = 'orange'
+packerHash                  = 'blue'
+packerOutput                = 'purple'
+packerRelDate               = 'gray13'
+packerSuccess               = 'green'
+packerStatusSuccess         = 'blue'
+
+[cmp]
+CmpItemAbbrDeprecated       = 'gray13 - s'
+CmpItemAbbrMatch            = 'gray15'
+CmpItemAbbrMatchFuzzy       = 'gray11'
+
+CmpItemKindFunction = 'blue'
+CmpItemKindMethod = 'blue'
+CmpItemKindConstructor = 'blue'
+CmpItemKindClass = 'blue'
+CmpItemKindEnum = 'blue'
+CmpItemKindEvent = 'blue'
+CmpItemKindInterface = 'blue'
+CmpItemKindStruct = 'blue'
+CmpItemKindVariable = 'blue'
+CmpItemKindField = 'blue'
+CmpItemKindProperty = 'blue'
+CmpItemKindEnumMember = 'blue'
+CmpItemKindConstant = 'blue'
+CmpItemKindKeyword = 'blue'
+CmpItemKindModule = 'blue'
+CmpItemKindValue = 'blue'
+CmpItemKindUnit = 'blue'
+CmpItemKindText = 'blue'
+CmpItemKindSnippet = 'blue'
+CmpItemKindFile = 'blue'
+CmpItemKindFolder = 'blue'
+CmpItemKindColor = 'blue'
+CmpItemKindReference = 'blue'
+CmpItemKindOperator = 'blue'
+CmpItemKindTypeParameter = 'blue'
+
+[NvimTree]
+NvimTreeGitNew              = 'sign_add_alt'
+NvimTreeGitRenamed          = 'sign_add_alt'
+NvimTreeGitDeleted          = 'sign_delete'
+NvimTreeGitMerge            = 'sign_change_alt'
+
+[Telescope]
+TelescopeMatching = 'info - bi'
+TelescopePromptPrefix = "hint"
+TelescopePromptTitle = "orange - b"
+TelescopeResultsTitle = "orange - b"
+TelescopePreviewTitle = "orange - b"
+TelescopePreviewHyphen = "red"
+
+[Navic]
+NavicIconsFile = 'gray06'
+NavicIconsModule = 'gray06'
+NavicIconsNamespace = 'gray06'
+NavicIconsPackage = 'gray06'
+NavicIconsClass = 'gray06'
+NavicIconsMethod = 'gray06'
+NavicIconsProperty = 'gray06'
+NavicIconsField = 'gray06'
+NavicIconsConstructor = 'gray06'
+NavicIconsEnum = 'gray06'
+NavicIconsInterface = 'gray06'
+NavicIconsFunction = 'gray06'
+NavicIconsVariable = 'gray06'
+NavicIconsConstant = 'gray06'
+NavicIconsString = 'gray06'
+NavicIconsNumber = 'gray06'
+NavicIconsBoolean = 'gray06'
+NavicIconsArray = 'gray06'
+NavicIconsObject = 'gray06'
+NavicIconsKey = 'gray06'
+NavicIconsKeyword = 'gray06'
+NavicIconsNull = 'gray06'
+NavicIconsEnumMember = 'gray06'
+NavicIconsStruct = 'gray06'
+NavicIconsEvent = 'gray06'
+NavicIconsOperator = 'gray06'
+NavicIconsTypeParameter = 'gray06'
+NavicText = 'gray06'
+NavicSeparator = 'gray06'
