@@ -21,6 +21,7 @@ local colors = {
   cursor_fg = "#415062",
   cursor_bg = "#AbAbAf",
   blue = "#75BEFF",
+  sage_green = "#B2AC88",
   purple = "#B180D7",
   red = "#db4b4b",
   green = "#5FD7A7",
