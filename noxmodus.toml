@@ -69,10 +69,10 @@ PmenuSbar                   = 'fg gray01'
 PmenuThumb                  = 'fg gray03'         # Changes colour of scroll bar in floating window.
 
 # Diff
-DiffText                    = 'bg red'
-DiffAdd                     = 'bg green'
-DiffChange                  = 'bg orange u'
-DiffDelete                  = 'bg red'
+DiffText                    = 'gray08 red'
+DiffAdd                     = 'gray08 green'
+DiffChange                  = 'gray08 -'
+DiffDelete                  = 'gray08 red'
 
 # Others
 
