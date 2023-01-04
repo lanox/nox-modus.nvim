@@ -9,16 +9,18 @@ local colors = {
   gray06 = "#a0a0a0",
   gray08 = "#efefef",
   green = "#97BC62",
-  greenhl = "#2C5F2D",
   blue = "#719597",
   purple = "#B180D7",
-  red = "#800013",
-  light_red = "#e60000",
+  red = "#e60000",
   orange = "#e67300",
   yellow = "#f2ac46",
   sage_green = "#B2AC88",
   cursor_fg = "#415062",
   cursor_bg = "#AbAbAf",
+  DiffAdd = "#294841",
+  DiffDelete = "#6A2835",
+  DiffChange = "#49423C",
+  DiffText = "#9A6F43",
 }
 
 return colors
