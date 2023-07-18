@@ -141,6 +141,7 @@ theme.set_highlights = function()
   hl(0, "NvimTreeGitStaged", { fg = c.green, bg = 'NONE' })
   hl(0, "NvimTreeGitDirty", { fg = c.yellow, bg = 'NONE' })
   hl(0, "NvimTreeSymlink", { fg = c.blue, bg = 'NONE' })
+  hl(0, "NvimTreeFolderIcon", { link = 'Directory' })
 
   -- Telescope
   hl(0, "TelescopeSelection", { fg = 'NONE', bg = c.gray01 })
