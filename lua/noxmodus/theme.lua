@@ -69,11 +69,11 @@ theme.set_highlights = function()
   -- Code
   hl(0, "Comment", { fg = c.gray02, bg = 'NONE', italic=true, })
   hl(0, "Title", { fg = c.gray05, bg = 'NONE', bold=true, })
-  hl(0, "String", { fg = c.light_blue, bg = 'NONE' })
+  hl(0, "String", { fg = c.gray06, bg = 'NONE' })
   hl(0, "Character", { fg = c.gray03, bg = 'NONE' })
   hl(0, "Number", { fg = c.gray04, bg = 'NONE' })
   hl(0, "Float", { fg = c.gray04, bg = 'NONE' })
-  hl(0, "Boolean", { fg = c.gray04, bg = 'NONE' })
+  hl(0, "Boolean", { fg = c.grayish_blue, bg = 'NONE' })
   hl(0, "Constant", { fg = c.light_blue, bg = 'NONE' })
   hl(0, "Type", { fg = c.white, bg = 'NONE' })
   hl(0, "StorageClass", { fg = c.white, bg = 'NONE' })
@@ -158,6 +158,10 @@ theme.set_highlights = function()
   hl(0, "TelescopeMatching", { fg = c.yellow, bg = 'NONE' })
   hl(0, "TelescopePromptPrefix", { fg = c.grayish_blue, bg = 'NONE' })
   hl(0, "TelescopePromptTitle", { fg = c.grayish_blue, bg = 'NONE' })
+
+  -- Treesitter
+  hl(0, "@variable", { link = 'Variable' })
+  hl(0, "@variable.builtin", { fg = c.grayish_blue, bg = 'NONE' })
 
   -- Navic
   hl(0, "NavicIconsFile", { fg = c.white, bg = 'NONE' })
