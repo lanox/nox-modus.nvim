@@ -1,7 +1,8 @@
 local colors = {
   bg = "#111111",
   fg = "#999999",
-  gray01 = "#333333",
+  lighteter_black = "#151515",
+  gray01 = "#2F2F2F",
   gray02 = "#666666",
   gray03 = "#b6b6b5",
   gray04 = "#7c8c95",
